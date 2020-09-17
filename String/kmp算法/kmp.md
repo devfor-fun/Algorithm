@@ -13,11 +13,11 @@ KMP算法是一种改进的字符串匹配算法，由D.E.Knuth，J.H.Morris和V
 
 以下为一般匹配方法的简单流程图：
 
-![my-General method-graph.gif](./一般方法匹配子串.gif)
+![my-General method-graph.gif](https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/%E4%B8%80%E8%88%AC%E6%96%B9%E6%B3%95%E5%8C%B9%E9%85%8D%E5%AD%90%E4%B8%B2.gif)
 
 以下为视频版本
 
-<video src="./一般方法匹配子串.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+<video src="https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/%E4%B8%80%E8%88%AC%E6%96%B9%E6%B3%95%E5%8C%B9%E9%85%8D%E5%AD%90%E4%B8%B2.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
 #### 代码
 一般方法不提供代码，具体可参考String 中的indexOf()方法，稍微与一般方法的代码有些不同，不过原理相似。
@@ -32,19 +32,19 @@ KMP算法是一种改进的字符串匹配算法，由D.E.Knuth，J.H.Morris和V
 
 以下为kmp算法的简单流程图：
 
-![my-KMP.gif](./kmp算法匹配字符串.gif)
+![my-KMP.gif](https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/kmp%E7%AE%97%E6%B3%95%E5%8C%B9%E9%85%8D%E5%AD%97%E7%AC%A6%E4%B8%B2.gif)
 
 以下为视频版本
 
-<video src="./kmp算法匹配字符串.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+<video src="https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/kmp%E7%AE%97%E6%B3%95%E5%8C%B9%E9%85%8D%E5%AD%97%E7%AC%A6%E4%B8%B2.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
 以下为next数组生成方法的简单流程图：
 
-![my-next.gif](./next数组生成方法.gif)
+![my-next.gif](https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/next%E6%95%B0%E7%BB%84%E7%94%9F%E6%88%90%E6%96%B9%E6%B3%95.gif)
 
 以下为视频版本
 
-<video src="./next数组生成方法.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+<video src="https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/next%E6%95%B0%E7%BB%84%E7%94%9F%E6%88%90%E6%96%B9%E6%B3%95.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
 #### 代码
 ```
