@@ -48,7 +48,62 @@ KMP算法是一种改进的字符串匹配算法，由D.E.Knuth，J.H.Morris和V
 
 #### 代码
 ```
-	后续上传代码
+
+	public class Kmp {
+
+	    public static void main(String[] args) {
+	        Kmp kmp = new Kmp();
+	        System.out.println(kmp.kmp("ABCABDCABCABCABDEASB", "ABCABDE"));
+	    }
+	
+	    public int kmp(String target, String simulation) {
+	        char[] targetChars = target.toCharArray();
+	        char[] simulationChars = simulation.toCharArray();
+	        // 获取next数组
+	        int[] next = getNext(simulationChars);
+	        int j = 0;
+	        int i = 0;
+	        while (i < targetChars.length && j < simulationChars.length) {
+	            // 相等则后续比较
+	            if (j == -1 || targetChars[i] == simulationChars[j]) {
+	                i++;
+	                j++;
+	            } else {
+	                // 下一个需要比较的位置
+	                j = next[j];
+	            }
+	        }
+	        //  j == 模拟字符串的长度，则找到了匹配的字符串
+	        if (j == simulationChars.length) {
+	            return i - j;
+	        }
+	        return -1;
+	    }
+
+	    private int[] getNext(char[] simulationChars) {
+	        int[] next = new int[simulationChars.length];
+	        next[0] = -1;
+	        // 表示 从字符串开头的位置进行比较
+	        int i = -1;
+	        // 表示 以字符串j的位置为开头进行比较
+	        int j = 0;
+	        while (j < simulationChars.length - 1) {
+	            if (i == -1 || simulationChars[i] == simulationChars[j]) {
+	                // i++ j++ 后比较中相等，则表示 字符串j的位置等价于字符串i的位置
+	                if (simulationChars[++i] == simulationChars[++j]) {
+	                    next[j] = next[i];
+	                } else {
+	                    // 不相等  则表示 j-1的位置等价于 i - 1的位置，则j可直接跳转到i的位置
+	                    next[j] = i;
+	                }
+	            } else {
+	                // 回溯  回到上一个不相等的位置 或 回到起点
+	                i = next[i];
+	            }
+	        }
+	        return next;
+	    }
+	}
 
 ```
 
