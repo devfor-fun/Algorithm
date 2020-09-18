@@ -15,7 +15,8 @@ KMP算法是一种改进的字符串匹配算法，由D.E.Knuth，J.H.Morris和V
 
 ![my-General method-graph.gif](https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/%E4%B8%80%E8%88%AC%E6%96%B9%E6%B3%95%E5%8C%B9%E9%85%8D%E5%AD%90%E4%B8%B2.gif)
 
-以下为视频版本
+以下为视频版本： 视频为gif图的MP4
+版本。视频貌似不支持，可以 [点击此处](https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/%E4%B8%80%E8%88%AC%E6%96%B9%E6%B3%95%E5%8C%B9%E9%85%8D%E5%AD%90%E4%B8%B2.mp4) 查看并下载
 
 <video src="https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/%E4%B8%80%E8%88%AC%E6%96%B9%E6%B3%95%E5%8C%B9%E9%85%8D%E5%AD%90%E4%B8%B2.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
@@ -34,7 +35,7 @@ KMP算法是一种改进的字符串匹配算法，由D.E.Knuth，J.H.Morris和V
 
 ![my-KMP.gif](https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/kmp%E7%AE%97%E6%B3%95%E5%8C%B9%E9%85%8D%E5%AD%97%E7%AC%A6%E4%B8%B2.gif)
 
-以下为视频版本
+以下为视频版本：视频貌似不支持，可以 [点击此处](https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/kmp%E7%AE%97%E6%B3%95%E5%8C%B9%E9%85%8D%E5%AD%97%E7%AC%A6%E4%B8%B2.mp4) 查看并下载
 
 <video src="https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/kmp%E7%AE%97%E6%B3%95%E5%8C%B9%E9%85%8D%E5%AD%97%E7%AC%A6%E4%B8%B2.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
@@ -42,7 +43,7 @@ KMP算法是一种改进的字符串匹配算法，由D.E.Knuth，J.H.Morris和V
 
 ![my-next.gif](https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/next%E6%95%B0%E7%BB%84%E7%94%9F%E6%88%90%E6%96%B9%E6%B3%95.gif)
 
-以下为视频版本
+以下为视频版本： 视频貌似不支持，可以 [点击此处](https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/next%E6%95%B0%E7%BB%84%E7%94%9F%E6%88%90%E6%96%B9%E6%B3%95.mp4) 查看并下载
 
 <video src="https://github.com/DevFor-Fun/Algorithm/blob/master/String/kmp%E7%AE%97%E6%B3%95/next%E6%95%B0%E7%BB%84%E7%94%9F%E6%88%90%E6%96%B9%E6%B3%95.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
